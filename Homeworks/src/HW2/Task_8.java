@@ -1,4 +1,4 @@
-package com.company;
+package HW2;
 
 public class Task_8 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.company;
+package HW2;
 import java.util.Arrays;
 import java.util.Random;
 
