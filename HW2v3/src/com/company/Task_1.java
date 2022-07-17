@@ -10,7 +10,7 @@ public class Task_1 {
 
         System.out.println("Random even numbers:");
         Random random = new Random();
-        int[] array = new int[100];
+        int[] array = new int[200];
         for (int i = 0; i < array.length; i++) {
             while (true) {
                 int randomEvenNumber = random.nextInt(50);
