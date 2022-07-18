@@ -5,12 +5,13 @@ public class Task_7 {
 
         //  7. Знайти найбільше парне число в масиві
 
-        int[] array5 = {301, 303, 6, 33, 290, 891, 40};
+        int[] array = {301, 303, 6, 33, 290, 891, 40};
         int evenMax = Integer.MIN_VALUE;
-        boolean isEvenPresent = true;
-        for (int i = 0; array5.length > i; i++) {
-        if (array5[i] > evenMax && array5[i] % 2 == 0) {
-                evenMax = array5[i];
+        boolean isEvenPresent = false;
+        for (int i = 0; array.length > i; i++) {
+            if (array[i] > evenMax && array[i] % 2 == 0) {
+                evenMax = array[i];
+                isEvenPresent = true;
             }
         }
         if (!isEvenPresent) {
@@ -20,4 +21,6 @@ public class Task_7 {
         }
     }
 }
+
+
 
