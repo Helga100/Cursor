@@ -1,4 +1,4 @@
-package HW4.zoo_service;
+package HW4.zooservice;
 
 public class Boss extends Person {
 

@@ -1,4 +1,4 @@
-package HW4.private_zoo;
+package HW4.privatezoo;
 
 public class Tiger extends Animal {
 
@@ -28,6 +28,6 @@ public class Tiger extends Animal {
 
     @Override
     public String getName() {
-        return this.name;
+        return super.getName();
     }
 }

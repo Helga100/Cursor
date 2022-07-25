@@ -1,8 +1,8 @@
-package HW4.private_zoo;
+package HW4.privatezoo;
 
 public abstract class Animal implements Nameable {
 
-    protected String name;
+    private final String name;
 
     public abstract void weight();
 
@@ -12,7 +12,12 @@ public abstract class Animal implements Nameable {
 
     public abstract void sleep();
 
-    public Animal(String name) {
+    protected Animal(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String getName() {
+        return name;
     }
 }

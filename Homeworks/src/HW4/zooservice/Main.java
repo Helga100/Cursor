@@ -1,12 +1,12 @@
-package HW4.zoo_service;
+package HW4.zooservice;
 
 public class Main {
 
     public static void main(String[] args) {
         ServiceStaff serviceStaff = new ServiceStaff("Ivan");
         Boss boss = new Boss("Yevheniy");
-        Boss_Wife boss_wife = new Boss_Wife("Matylda");
-        Boss_Son boss_son = new Boss_Son("Innokentiy");
+        BossWife boss_wife = new BossWife("Matylda");
+        BossSon boss_son = new BossSon("Innokentiy");
         System.out.println(serviceStaff.getName());
         serviceStaff.deal(boss);
         serviceStaff.deal(boss_wife);

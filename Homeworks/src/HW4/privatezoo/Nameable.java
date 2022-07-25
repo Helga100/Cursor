@@ -1,4 +1,4 @@
-package HW4.private_zoo;
+package HW4.privatezoo;
 
 public interface Nameable {
 
